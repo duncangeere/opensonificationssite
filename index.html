@@ -18,7 +18,6 @@
             display: flex;
             justify-content: center;
             align-items: flex-start;
-            height: 100vh;
             background-color: #ffffff;
         }
 
@@ -29,11 +28,25 @@
 
         .desktop img {
             width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+
+        .desktop svg {
+            width: 100%;
+            height: auto;
             object-fit: contain;
         }
 
         .mobile img {
             width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+
+        .mobile svg {
+            width: 100%;
+            height: auto;
             object-fit: contain;
         }
 
@@ -55,7 +68,6 @@
             .mobile {
                 display: block;
                 width: 100%;
-                height: 100%;
             }
         }
 
@@ -66,13 +78,14 @@
 
             .desktop {
                 display: block;
+                width: 100%;
             }
         }
     </style>
 </head>
 <body>
     <div class="desktop">
-        <svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" preserveAspectRatio="xMidYMin slice" xmlns="http://www.w3.org/2000/svg">
             <g id="desktop">
             <rect width="1440" height="1024" fill="white"/>
             <g id="Frame 5">
@@ -177,7 +190,7 @@
     </div>
 
     <div class="mobile">
-        <svg width="393" height="1454" viewBox="0 0 393 1454" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="393" height="1454" viewBox="0 0 393 1454" fill="none" preserveAspectRatio="xMidYMin slice" xmlns="http://www.w3.org/2000/svg">
             <g id="mobile">
             <rect width="393" height="1454" fill="white"/>
             <g id="Frame 5">
