@@ -1,12 +1,11 @@
 <svg width="393" height="1454" viewBox="0 0 393 1454" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="393" height="1454" fill="#F5F5F5"/>
 <g id="mobile">
 <rect width="393" height="1454" fill="white"/>
 <g id="Frame 5">
 <text id="The Open Sonifications Manifesto" fill="black" xml:space="preserve" style="white-space: pre" font-family="Bitter" font-size="31" font-weight="800" letter-spacing="0em"><tspan x="127.053" y="56.385">The Open </tspan><tspan x="97.6577" y="90.385">Sonifications </tspan><tspan x="122.558" y="124.385">Manifesto</tspan></text>
 <text id="This is a manifesto in search of many sonifications. We invite you to use it as a map to explore the varied worlds of data + sound." fill="black" xml:space="preserve" style="white-space: pre" font-family="Bitter" font-size="16" letter-spacing="0em"><tspan x="60.9375" y="161.36">This is a manifesto in search of many </tspan><tspan x="31.0547" y="179.36">sonifications. We invite you to use it as a map </tspan><tspan x="35.3594" y="197.36">to explore the varied worlds of data + sound.</tspan></text>
 </g>
-<g id="Get in touch with us at opensonifications@gmail.com">
+<g id="Get in touch with us at <a href='opensonifications@gmail.com'>opensonifications@gmail.com</a>">
 <text fill="black" xml:space="preserve" style="white-space: pre" font-family="Bitter" font-size="16" letter-spacing="0em"><tspan x="114.555" y="1358.36">Get in touch with us at&#10;</tspan></text>
 <text fill="black" xml:space="preserve" style="white-space: pre" font-family="Bitter" font-size="16" letter-spacing="0em" text-decoration="underline"><tspan x="84.2812" y="1376.36">opensonifications@gmail.com</tspan></text>
 </g>
