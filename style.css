@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: Bitter, Sans;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+h2 {
+    font-family: "Amatic SC", Sans;
+    font-size: 2em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#manifesto {
+    text-align: right;
+}
+
+#description {
+    font-size: 50%;
+    padding-right: 4px;
+}
+
+#videocontainer {
+    text-align: center;
+}
+
+#videocontainer iframe {
+    padding: 20px 0px;
+    width: 100%;
+    max-width: 800px;
+}
+
+#pdfdownload {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+#pdfbutton {
+    display: block;
+    margin: 26.56px auto;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-radius: 5px;
+    width: 180px;
+}
+
+#pdfbutton:hover {
+    color: #ffff6e;
+}
+
+#highlight {
+    background-color: #ffff6e;
+}
+
+@media (max-width: 768px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (min-width: 769px) {
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+        width: 100%;
+    }
+}
