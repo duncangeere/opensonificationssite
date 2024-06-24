@@ -35,13 +35,8 @@ a:hover {
 }
 
 #videocontainer {
-    text-align: center;
-}
-
-#videocontainer iframe {
-    padding: 20px 0px;
-    width: 100%;
     max-width: 800px;
+    margin: 20px auto;
 }
 
 #pdfdownload {
